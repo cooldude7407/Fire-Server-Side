@@ -16,7 +16,7 @@
 * Discord: DEAD SHADOW#4200
 
 
-Feel free to check [issues page](https://github.com/iK4oS/backdoor.exe/issues).
+Feel free to check [issues page](https://github.com/cooldude7407/Fire-Server-Side/issues).
 
 ## Show your support
 
