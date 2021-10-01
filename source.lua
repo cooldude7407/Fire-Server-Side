@@ -1,31 +1,12 @@
---[[
-    backdoor.exe, the best backdoor scanner in Roblox.
-    Copyright (C) 2021	iK4oS
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
-]]
-
-
 local localPlayer = game.Players.LocalPlayer
 local UI_PARENT = game.CoreGui.RobloxGui
 local SALT = "12623546126"
-local INV_CODE = "6HndYgC"
+local INV_CODE = "eNARhX7AQ7"
 
 local function notify(text,cb,b1,b2)
 	game.StarterGui:SetCore(
 		"SendNotification",{
-			Title = "backdoor.exe",
+			Title = "Fire Serverside",
 			Duration = 3,
 			Text = text,
 			Callback = cb,
@@ -42,7 +23,7 @@ for _, ui in pairs(UI_PARENT:GetChildren()) do
 	end
 end
 
-local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/ui.lua"))()
+local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/cooldude7407/Fire-Server-Side/main/ui.lua"))()
 if syn then syn.protect_gui(UI) end
 UI.Parent = UI_PARENT
 UI.Name = SALT..tostring(math.random(100000000,1000000000))
@@ -105,7 +86,7 @@ local function changeUiState()
 	end
 end
 local function stringToInstance(str)
-	 -- Credits to the DevForum
+	
 	local dir = str
 	local segments = dir:split(".")
 	local current = game
@@ -239,11 +220,3 @@ clearButton.MouseButton1Click:Connect(function() source.Text = ""  end)
 hideButton.MouseButton1Click:Connect(function() sourceFrame.Visible = not sourceFrame.Visible end)
 inviteButton.MouseButton1Click:Connect(function() promtDicordInvite(INV_CODE) end)
 notify("Make sure to join our Discord!\nCode: "..INV_CODE)
-
---	k4scripts
---	.------.
---	|4.--. |
---	| :/\: |
---	| :\/: |
---	| '--'4|
---	`------'
