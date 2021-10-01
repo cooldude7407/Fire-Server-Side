@@ -12,7 +12,7 @@
 
 👤 **cooldude7407**
 
-* Github: [@iK4oS](https://github.com/cooldude7407)
+* Github: [@cooldude7407](https://github.com/cooldude7407)
 * Discord: DEAD SHADOW#4200
 
 
